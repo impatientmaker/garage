@@ -10,7 +10,7 @@ import (
 )
 
 const (
-   CMD = "/usr/local/bin/usbrelay"
+   CMD = "/usr/bin/usbrelay"
    RELAY="3V6F0_1"
    RELAY_ON=RELAY+"=1"
    RELAY_OFF=RELAY+"=0"
