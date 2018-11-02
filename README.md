@@ -10,6 +10,10 @@ This info is derived from this page: https://github.com/darrylb123/usbrelay
 That package depends on HID API, which I installed via apt.
 (this is on an ARM platform, namely https://getchip.com/pages/chip)
 
+NOTE:  I originally built this on a C.H.I.P. SBC - the CHIP stopped working 
+and the company went out of business.  This still works (more or less) on Raspberry Pi's.
+At the moment, though, I'm running a REST server on an ESP8266.
+
 On chip, which is debian-based, you can install the HID API packages thusly:
  apt-get install libhidapi-dev libhidapi-libusb0 build-essential
 
